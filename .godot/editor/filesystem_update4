@@ -2,4 +2,5 @@ res://player.tscn
 res://player.gd
 res://world.tscn
 res://spikes.tscn
-res://hazard_area.tscn
+res://heart.tscn
+res://heart.gd

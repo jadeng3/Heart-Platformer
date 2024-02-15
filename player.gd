@@ -3,7 +3,7 @@ extends CharacterBody2D
 @onready var coyote_jump_timer = $CoyoteJumpTimer
 
 @export var movement_data : PlayerMovementData
-
+@export var starting_position = global_position
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var air_jump = false
 var just_wall_jumped = false
@@ -83,4 +83,4 @@ func update_animations(input_axis):
 
 
 func _on_hazard_detector_area_entered(area):
-	queue_free()
+	global_position = starting_position 
