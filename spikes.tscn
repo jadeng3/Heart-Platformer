@@ -11,10 +11,8 @@ texture = ExtResource("1_ie5bw")
 [node name="HazardArea" parent="." instance=ExtResource("2_fdnf0")]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="HazardArea"]
-visible = false
 polygon = PackedVector2Array(-8, 8, -5, 2, -4, 2, -1, 8)
 
 [node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="HazardArea"]
-visible = false
 position = Vector2(8, 0)
 polygon = PackedVector2Array(-8, 8, -5, 2, -4, 2, -1, 8)
