@@ -1,1 +1,11 @@
 res://world.tscn
+res://player.tscn
+res://spikes.tscn
+res://heart.tscn
+res://level_completed.tscn
+res://level_tilemap.tscn
+res://level_one.tscn
+res://level_two.tscn
+res://world_copy.tscn
+res://world.gd
+res://level_transition.tscn
